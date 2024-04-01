@@ -1,0 +1,27 @@
+{
+  "name": "pinterest_clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "",
+    "@types/node": "",
+    "@types/react": "",
+    "@types/react-dom": "",
+    "autoprefixer": "",
+    "firebase": "",
+    "next": "",
+    "next-auth": "",
+    "postcss": "",
+    "react": "",
+    "react-dom": "",
+    "react-icons": "",
+    "tailwindcss": "",
+    "typescript": ""
+  }
+}
