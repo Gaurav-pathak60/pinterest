@@ -7,6 +7,8 @@ import app from './Shared/firebaseConfig';
 import { useEffect, useState } from 'react';
 import PinList from './components/Pins/PinList';
 
+
+
 export default function Home() {
   const db=getFirestore(app);
   const [listOfPins,setListOfPins]=useState([]);
