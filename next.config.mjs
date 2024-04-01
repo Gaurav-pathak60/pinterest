@@ -1,8 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import { defineConfig } from 'next/dist/shared/lib/utils'
+
+const nextConfig = defineConfig({
     images:{
         domains:['lh3.googleusercontent.com','firebasestorage.googleapis.com']
     }
-}
+})
 
-module.exports = nextConfig
+export default nextConfig
